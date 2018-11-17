@@ -18,15 +18,15 @@ func main() {
 	}
 
 	data1 := struct {
-		ID     uint64
-		Code   string
-		Name   string
-		ShopID uint64
+		ID          uint64
+		Description string
+		Name        string
+		ColID       uint64
 	}{
-		ID:     3801,
-		Code:   "effect of this product is so amazing and not comparable to any other product",
-		Name:   "test2",
-		ShopID: 2884978,
+		ID:          3801,
+		Description: "effect of this product is so amazing and not comparable to any other product",
+		Name:        "test2",
+		ColID:       2884978,
 	}
 
 	data2 := struct {
